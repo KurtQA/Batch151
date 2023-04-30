@@ -1,0 +1,42 @@
+
+STRING METHODLARI
+
+1) toUpperCase:
+a-Tum harfleri buyuk harfe cevirir.
+b-Verdigimiz ismin yanina nokta koyunca bize String bir data return
+eder.
+
+2) toLowerCase:
+a-Tum harfleri kucuk harf yapar.
+b-Bize upperCase'de oldugu gibi String data dondurur
+
+3) charAt(0); methodu:
+a-Bize datadaki ilk karakteri dondurur.
+b-index ile calisir.
+c-parantez icine 10 koyunca onuncu karakteri verir
+d)charAt methodu "char" return eder
+
+4) length() methodu:
+a)bir datadaki karakter sayisini bize verir
+b)int bir deger dondurur.
+
+5) substring() methodu:
+a)iki kullanimi vardir
+i)baslangic ve bitis index'i verilirse (suradan suraya kadar al derse)
+ornek birinci karakterden dorduncu karaktare kadar al,
+baslangic indexi dahil bitis haric yazdirir.
+0'dan baslar.Ilk karakter 0 dir, sonra ikinci ve dorduncuye kadar
+gider, ama 4'u almaz, dorde kadar al demistik cunku
+Metnin ortasindan data almamizi saglar
+ii)(baslangicIndexi-beginIndex) String'in verilen indexten sonuna kadar
+alinmasini saglar
+Bu method bize String dondurur
+
+6)contains() methodu:
+Bir data var mi yok mu diye bakar. Bize boolean bir deger dondurur
+
+7) startsWith() Metnin bas kisminin istenilen dizi(1 veya
+                daha fazla karakter) ile eslesip eslesmedigini
+                kontrol eder.Sonucu boolean dir
+
+
